@@ -1,0 +1,57 @@
+header {
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+}
+
+.header-search {
+   display: flex;
+   height: 32px;
+}
+.header-search input {
+   font-size: 1.6rem;
+}
+
+.header-buttons {
+   justify-content: end;
+}
+
+.main__hero {
+   margin-top: 40px;
+}
+
+.main__hero img:nth-child(5) {
+   display: initial;
+   margin-top: 60px;
+}
+
+.main__testimonios .testimonio-container {
+   flex-direction: row;
+   max-width: 1140px;
+   height: 320px;
+}
+
+.main__testimonios .testimonio-container img:nth-child(1) {
+   height: 100%;
+   width: auto;
+}
+
+.main__testimonios .testimonio-container > div:nth-child(2) p:nth-child(1) {
+   font-size: 2.6rem;
+   width: 100%;
+   text-align: center;
+}
+
+.main__testimonios .testimonio-container > div:nth-child(2) p:nth-child(2) {
+   font-size: 2.6rem;
+   width: 100%;
+}
+
+.main__testimonios .testimonio-container > div:nth-child(2) p:nth-child(3) {
+   font-size: 2rem;
+   width: 100%;
+   max-width: 90%;
+}
+
+.main__preguntas-frecuentes {
+   max-width: 950px;
+}
